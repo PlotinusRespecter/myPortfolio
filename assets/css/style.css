@@ -55,3 +55,52 @@ header {
     background-position: center;
     position: relative;
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+section {
+    padding: 40px;
+  }
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+.name {
+    padding: 15px;
+}
+
+.about-me-info {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.about-me-info img {
+    width: 60%;
+}
+
+.major-project {
+    width: 90%;
+    margin: 10px;
+}
+
+.minor-projects {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+}
+
+.minor-project {
+    width: 1000%;
+}
